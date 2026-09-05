@@ -1898,3 +1898,51 @@
 2026-09-05 16:37:09 | INFO | __main__ | Saved 349 events to data\cleaned\disruption_events.csv
 2026-09-05 16:37:09 | INFO | __main__ | Saved 349 events to data\processed\disruption_events.json
 2026-09-05 16:37:09 | INFO | __main__ | === ETL PIPELINE FINISHED — 349 final events ===
+2026-09-05 20:15:14 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-05 20:15:14 | WARNING | etl.extract | Folder nahi mila: data\raw\weather
+2026-09-05 20:15:14 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-05 20:15:14 | WARNING | etl.extract | Folder nahi mila: data\raw\government
+2026-09-05 20:15:14 | WARNING | etl.extract | Folder nahi mila: data\raw\disaster
+2026-09-05 20:15:14 | WARNING | etl.extract | Folder nahi mila: data\raw\transport
+2026-09-05 20:15:14 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-05 20:15:14 | WARNING | __main__ | Koi raw data nahi mila. Pipeline rok rahe hain.
+2026-09-05 20:41:56 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-05 20:41:56 | WARNING | etl.extract | Folder nahi mila: data\raw\weather
+2026-09-05 20:41:58 | INFO | etl.extract | Extracted 12376 records from 'news' (52 files)
+2026-09-05 20:41:58 | WARNING | etl.extract | Folder nahi mila: data\raw\government
+2026-09-05 20:41:58 | WARNING | etl.extract | Folder nahi mila: data\raw\disaster
+2026-09-05 20:41:58 | WARNING | etl.extract | Folder nahi mila: data\raw\transport
+2026-09-05 20:41:58 | INFO | etl.extract | TOTAL extracted across all sources: 12376
+2026-09-05 20:41:59 | INFO | etl.clean | Cleaned 12376 records
+2026-09-05 20:41:59 | INFO | etl.nlp_processor | NLP-enriched 12376 records
+2026-09-05 20:41:59 | INFO | etl.geocode | Geocoded 12376 records
+2026-09-05 20:41:59 | INFO | etl.deduplicate | Deduplication: 0 duplicates removed, 12376 unique records remain
+2026-09-05 20:42:01 | INFO | __main__ | Saved 12376 events to data\cleaned\disruption_events.csv
+2026-09-05 20:42:05 | INFO | __main__ | Saved 12376 events to data\processed\disruption_events.json
+2026-09-05 20:45:44 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-05 20:45:44 | WARNING | etl.extract | Folder nahi mila: data\raw\weather
+2026-09-05 20:45:45 | INFO | etl.extract | Extracted 12376 records from 'news' (52 files)
+2026-09-05 20:45:45 | WARNING | etl.extract | Folder nahi mila: data\raw\government
+2026-09-05 20:45:45 | WARNING | etl.extract | Folder nahi mila: data\raw\disaster
+2026-09-05 20:45:45 | WARNING | etl.extract | Folder nahi mila: data\raw\transport
+2026-09-05 20:45:45 | INFO | etl.extract | TOTAL extracted across all sources: 12376
+2026-09-05 20:45:46 | INFO | etl.clean | Cleaned 12376 records
+2026-09-05 20:45:46 | INFO | etl.nlp_processor | NLP-enriched 12376 records
+2026-09-05 20:45:46 | INFO | etl.geocode | Geocoded 12376 records
+2026-09-05 20:45:46 | INFO | etl.deduplicate | Deduplication: 0 duplicates removed, 12376 unique records remain
+2026-09-05 20:45:47 | INFO | __main__ | Saved 12376 events to data\cleaned\disruption_events.csv
+2026-09-05 20:45:50 | INFO | __main__ | Saved 12376 events to data\processed\disruption_events.json
+2026-09-05 20:46:47 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-05 20:46:47 | WARNING | etl.extract | Folder nahi mila: data\raw\weather
+2026-09-05 20:46:48 | INFO | etl.extract | Extracted 12376 records from 'news' (52 files)
+2026-09-05 20:46:48 | WARNING | etl.extract | Folder nahi mila: data\raw\government
+2026-09-05 20:46:48 | WARNING | etl.extract | Folder nahi mila: data\raw\disaster
+2026-09-05 20:46:48 | WARNING | etl.extract | Folder nahi mila: data\raw\transport
+2026-09-05 20:46:48 | INFO | etl.extract | TOTAL extracted across all sources: 12376
+2026-09-05 20:46:49 | INFO | etl.clean | Cleaned 12376 records
+2026-09-05 20:46:49 | INFO | etl.nlp_processor | NLP-enriched 12376 records
+2026-09-05 20:46:49 | INFO | etl.geocode | Geocoded 12376 records
+2026-09-05 20:46:49 | INFO | etl.deduplicate | Deduplication: 0 duplicates removed, 12376 unique records remain
+2026-09-05 20:46:50 | INFO | __main__ | Saved 12376 events to data\cleaned\disruption_events.csv
+2026-09-05 20:46:52 | INFO | __main__ | Saved 12376 events to data\processed\disruption_events.json
+2026-09-05 20:47:16 | INFO | __main__ | === ETL PIPELINE FINISHED — 12376 final events ===

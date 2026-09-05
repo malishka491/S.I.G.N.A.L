@@ -53,7 +53,10 @@ def extract_source(source_type: str, folder_path: str) -> list:
         logger.warning(f"Folder nahi mila: {folder_path}")
         return []
 
-    files = glob.glob(os.path.join(folder_path, f"*.{file_format}"))
+    files = glob.glob(
+    os.path.join(folder_path, "**", f"*.{file_format}"),
+    recursive=True
+)
 
     for file_path in files:
         if file_format == "json":

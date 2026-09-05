@@ -7,6 +7,7 @@ Extract -> Clean -> NLP Enrich -> Geocode -> Deduplicate -> Save
 import csv
 import json
 import os
+from etl.load_json_to_postgres import load_json_to_postgres
 from etl.utils.logger_config import get_logger
 from etl.extract import extract_all_sources
 from etl.clean import clean_records
@@ -69,7 +70,7 @@ def run_pipeline(use_geocoding: bool = True):
 
     save_to_csv(events, os.path.join("data", "cleaned", "disruption_events.csv"))
     save_to_json(events, os.path.join("data", "processed", "disruption_events.json"))
-
+    load_json_to_postgres()
     logger.info(f"=== ETL PIPELINE FINISHED — {len(events)} final events ===")
     return events
 
