@@ -50,10 +50,13 @@ def save_to_json(events: list, output_path: str):
     logger.info(f"Saved {len(events)} events to {output_path}")
 
 
-def run_pipeline(use_geocoding: bool = True):
+def run_pipeline(
+    use_geocoding: bool = True,
+    selected_files: list = None
+):
     logger.info("=== ETL PIPELINE STARTED ===")
 
-    raw = extract_all_sources()
+    raw = extract_all_sources(selected_files=selected_files)
     if not raw:
         logger.warning("Koi raw data nahi mila. Pipeline rok rahe hain.")
         return []
