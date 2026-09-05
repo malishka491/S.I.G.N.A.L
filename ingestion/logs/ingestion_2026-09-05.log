@@ -1,0 +1,29 @@
+2026-09-05 11:54:39 | INFO | __main__ | === News Collector Started ===
+2026-09-05 11:54:39 | INFO | __main__ | Fetching news for query: 'highway accident India'
+2026-09-05 11:54:41 | INFO | __main__ | Fetching news for query: 'landslide highway India'
+2026-09-05 11:54:44 | INFO | __main__ | Fetching news for query: 'flood road blocked India'
+2026-09-05 11:54:46 | INFO | __main__ | Saved 300 news rows to data\raw\news\news_2026-09-05T06-24-46.csv
+2026-09-05 11:54:46 | INFO | __main__ | === News Collector Finished ===
+2026-09-05 11:55:16 | INFO | __main__ | === Disaster Collector Started ===
+2026-09-05 11:55:21 | INFO | __main__ | Fetched 443 disaster alerts from GDACS
+2026-09-05 11:55:21 | INFO | __main__ | Saved 443 disaster alert files
+2026-09-05 11:55:21 | INFO | __main__ | === Disaster Collector Finished ===
+2026-09-05 11:55:51 | INFO | __main__ | === Government Collector Started ===
+2026-09-05 11:55:51 | INFO | __main__ | Fetched 0 government advisories from PIB
+2026-09-05 11:55:51 | INFO | __main__ | Saved 0 advisory files
+2026-09-05 11:55:51 | INFO | __main__ | === Government Collector Finished ===
+2026-09-05 11:58:45 | INFO | __main__ | === Government Collector Started ===
+2026-09-05 11:58:47 | INFO | __main__ | Fetched 0 government advisories from PIB
+2026-09-05 11:58:47 | INFO | __main__ | Saved 0 advisory files
+2026-09-05 11:58:47 | INFO | __main__ | === Government Collector Finished ===
+2026-09-05 12:01:36 | INFO | __main__ | === Government Collector Started ===
+2026-09-05 12:01:37 | INFO | __main__ | Fetched 64 advisories for query 'government advisory highway India'
+2026-09-05 12:01:38 | INFO | __main__ | Fetched 53 advisories for query 'NHAI advisory road closure'
+2026-09-05 12:01:40 | INFO | __main__ | Fetched 76 advisories for query 'traffic advisory government India'
+2026-09-05 12:01:41 | INFO | __main__ | Saved 193 advisory files total
+2026-09-05 12:01:41 | INFO | __main__ | === Government Collector Finished ===
+2026-09-05 12:02:12 | INFO | __main__ | === Weather Collector Started ===
+2026-09-05 12:02:13 | INFO | __main__ | Saved weather data: data\raw\weather\weather_kanpur_2026-09-05T06-32-13.json
+2026-09-05 12:02:14 | INFO | __main__ | Saved weather data: data\raw\weather\weather_ramban_2026-09-05T06-32-14.json
+2026-09-05 12:02:15 | INFO | __main__ | Saved weather data: data\raw\weather\weather_dehradun_2026-09-05T06-32-15.json
+2026-09-05 12:02:15 | INFO | __main__ | === Weather Collector Finished ===

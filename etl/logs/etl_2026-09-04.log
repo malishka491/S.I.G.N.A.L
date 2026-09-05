@@ -1,0 +1,47 @@
+2026-09-04 16:07:32 | INFO | __main__ | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:07:32 | INFO | __main__ | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:07:32 | INFO | __main__ | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:07:32 | INFO | __main__ | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:07:32 | INFO | __main__ | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:07:32 | INFO | __main__ | TOTAL extracted across all sources: 0
+2026-09-04 16:10:53 | INFO | etl.extract | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:10:53 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:10:53 | INFO | etl.extract | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:10:53 | INFO | etl.extract | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:10:53 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:10:53 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-04 16:10:53 | INFO | __main__ | Cleaned 0 records
+2026-09-04 16:11:19 | INFO | etl.extract | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:11:19 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:11:19 | INFO | etl.extract | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:11:19 | INFO | etl.extract | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:11:19 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:11:19 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-04 16:11:19 | INFO | etl.clean | Cleaned 0 records
+2026-09-04 16:11:19 | INFO | __main__ | NLP-enriched 0 records
+2026-09-04 16:12:05 | INFO | etl.extract | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:12:05 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:12:05 | INFO | etl.extract | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:12:05 | INFO | etl.extract | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:12:05 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:12:05 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-04 16:12:05 | INFO | etl.clean | Cleaned 0 records
+2026-09-04 16:12:05 | INFO | etl.nlp_processor | NLP-enriched 0 records
+2026-09-04 16:12:05 | INFO | __main__ | Geocoded 0 records
+2026-09-04 16:12:24 | INFO | etl.extract | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:12:24 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:12:24 | INFO | etl.extract | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:12:24 | INFO | etl.extract | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:12:24 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:12:24 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-04 16:12:24 | INFO | etl.clean | Cleaned 0 records
+2026-09-04 16:12:24 | INFO | etl.nlp_processor | NLP-enriched 0 records
+2026-09-04 16:12:24 | INFO | __main__ | Deduplication: 0 duplicates removed, 0 unique records remain
+2026-09-04 16:19:16 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-04 16:19:16 | INFO | etl.extract | Extracted 0 records from 'weather' (0 files)
+2026-09-04 16:19:16 | INFO | etl.extract | Extracted 0 records from 'news' (0 files)
+2026-09-04 16:19:16 | INFO | etl.extract | Extracted 0 records from 'government' (0 files)
+2026-09-04 16:19:16 | INFO | etl.extract | Extracted 0 records from 'disaster' (0 files)
+2026-09-04 16:19:16 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-04 16:19:16 | INFO | etl.extract | TOTAL extracted across all sources: 0
+2026-09-04 16:19:16 | WARNING | __main__ | Koi raw data nahi mila. Pipeline rok rahe hain.
