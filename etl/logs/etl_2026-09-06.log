@@ -1,0 +1,28 @@
+2026-09-06 18:45:35 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-06 18:45:35 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-06 18:45:35 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-06 18:45:38 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-06 18:45:46 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-06 18:45:46 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-06 18:45:46 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-06 18:45:46 | INFO | etl.clean | Cleaned 939 records
+2026-09-06 18:45:46 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-06 18:47:12 | INFO | etl.geocode | Geocoded 939 records
+2026-09-06 18:47:12 | INFO | etl.deduplicate | Deduplication: 512 duplicates removed, 427 unique records remain
+2026-09-06 18:47:12 | INFO | __main__ | Saved 427 events to data\cleaned\disruption_events.csv
+2026-09-06 18:47:12 | INFO | __main__ | Saved 427 events to data\processed\disruption_events.json
+2026-09-06 18:47:12 | INFO | __main__ | === ETL PIPELINE FINISHED — 427 final events ===
+2026-09-06 19:38:54 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-06 19:38:54 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-06 19:38:54 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-06 19:38:55 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-06 19:38:57 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-06 19:38:57 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-06 19:38:57 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-06 19:38:58 | INFO | etl.clean | Cleaned 939 records
+2026-09-06 19:38:58 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-06 19:39:58 | INFO | etl.geocode | Geocoded 939 records
+2026-09-06 19:39:58 | INFO | etl.deduplicate | Deduplication: 512 duplicates removed, 427 unique records remain
+2026-09-06 19:39:59 | INFO | __main__ | Saved 427 events to data\cleaned\disruption_events.csv
+2026-09-06 19:39:59 | INFO | __main__ | Saved 427 events to data\processed\disruption_events.json
+2026-09-06 19:39:59 | INFO | __main__ | === ETL PIPELINE FINISHED — 427 final events ===

@@ -1,0 +1,59 @@
+2026-09-07 06:48:31 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-07 06:48:31 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-07 06:48:32 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-07 06:48:34 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-07 06:48:39 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-07 06:48:39 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-07 06:48:39 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-07 06:48:39 | INFO | etl.clean | Cleaned 939 records
+2026-09-07 06:48:40 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-07 06:50:21 | INFO | etl.geocode | Geocoded 939 records
+2026-09-07 06:50:21 | INFO | etl.deduplicate | Deduplication: 512 duplicates removed, 427 unique records remain
+2026-09-07 06:50:21 | INFO | __main__ | Saved 427 events to data\cleaned\disruption_events.csv
+2026-09-07 06:50:21 | INFO | __main__ | Saved 427 events to data\processed\disruption_events.json
+2026-09-07 06:50:21 | INFO | __main__ | === ETL PIPELINE FINISHED — 427 final events ===
+2026-09-07 06:53:57 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-07 06:53:57 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-07 06:53:57 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-07 06:53:57 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-07 06:53:57 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-07 06:53:57 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-07 06:53:57 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-07 06:53:57 | INFO | etl.clean | Cleaned 939 records
+2026-09-07 06:55:52 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-07 06:55:52 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-07 06:55:52 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-07 06:55:52 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-07 06:55:52 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-07 06:55:52 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-07 06:55:52 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-07 06:55:53 | INFO | etl.clean | Cleaned 939 records
+2026-09-07 06:55:53 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-07 06:57:11 | INFO | etl.geocode | Geocoded 939 records
+2026-09-07 06:57:11 | INFO | etl.deduplicate | Deduplication: 512 duplicates removed, 427 unique records remain
+2026-09-07 06:57:11 | INFO | __main__ | Saved 427 events to data\cleaned\disruption_events.csv
+2026-09-07 06:57:11 | INFO | __main__ | Saved 427 events to data\processed\disruption_events.json
+2026-09-07 06:57:11 | INFO | __main__ | === ETL PIPELINE FINISHED — 427 final events ===
+2026-09-07 07:07:25 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-07 07:07:25 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-07 07:07:25 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-07 07:07:25 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-07 07:07:25 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-07 07:07:25 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-07 07:07:25 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-07 07:07:25 | INFO | etl.clean | Cleaned 939 records
+2026-09-07 07:07:25 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-07 07:08:49 | INFO | __main__ | === ETL PIPELINE STARTED ===
+2026-09-07 07:08:49 | INFO | etl.extract | Extracted 3 records from 'weather' (3 files)
+2026-09-07 07:08:49 | INFO | etl.extract | Extracted 300 records from 'news' (1 files)
+2026-09-07 07:08:49 | INFO | etl.extract | Extracted 193 records from 'government' (193 files)
+2026-09-07 07:08:49 | INFO | etl.extract | Extracted 443 records from 'disaster' (443 files)
+2026-09-07 07:08:49 | INFO | etl.extract | Extracted 0 records from 'transport' (0 files)
+2026-09-07 07:08:49 | INFO | etl.extract | TOTAL extracted across all sources: 939
+2026-09-07 07:08:49 | INFO | etl.clean | Cleaned 939 records
+2026-09-07 07:08:50 | INFO | etl.nlp_processor | NLP-enriched 939 records
+2026-09-07 07:10:05 | INFO | etl.geocode | Geocoded 939 records
+2026-09-07 07:10:05 | INFO | etl.deduplicate | Deduplication: 512 duplicates removed, 427 unique records remain
+2026-09-07 07:10:05 | INFO | __main__ | Saved 427 events to data\cleaned\disruption_events.csv
+2026-09-07 07:10:05 | INFO | __main__ | Saved 427 events to data\processed\disruption_events.json
+2026-09-07 07:10:05 | INFO | __main__ | === ETL PIPELINE FINISHED — 427 final events ===
